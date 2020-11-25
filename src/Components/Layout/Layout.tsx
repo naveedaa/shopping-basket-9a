@@ -7,7 +7,7 @@ const Layout = ({title, description, children}: any) => {
         <>
         <Helmet>
             <title>{ title ? title + " - Naveeda Store" : "Naveeda Store" }</title>
-            <meta name = "description" content={ description || "Shopping Basket" } />
+            <meta name = "description" content={ description || "Shoe Store" } />
         </Helmet>
         <main className="container">
             {children}
