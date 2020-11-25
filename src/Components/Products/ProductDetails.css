@@ -5,23 +5,15 @@
 }
 
 .img-fluid {
-    width: 10vw;
-    height: 3vh;
     display: flex;
     position: relative;
-    left: 100px;
     align-items: center;
     justify-content: center;
+    max-height: 300px !important;
 }
 
 @media (max-width: 767px) {
     .img-fluid {
-        width: 40vw;
-        height: 3vh;
-        display: flex;
-        position: relative;
-        left: 100px;
-        align-items: center;
-        justify-content: center;
+        max-height: 300px !important;
     }
 }
